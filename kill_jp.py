@@ -38,8 +38,6 @@ except:
     CloseKey(key)
     sys.exit(0)
 
-misteryKey = "f"
-
 jpIsHackingMe = False
 imTheLegitimUser = False
 otpEnteredKey = ""
