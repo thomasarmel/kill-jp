@@ -8,8 +8,6 @@ from winreg import *
 import qrcode
 import io
 
-# secret 3QKP7RI5PAZRH74EN4TSYY2RKVVXH2WX
-
 if __name__ != "__main__":
     print("This script has to be launched directly", file=sys.stderr)
     sys.exit(2)
@@ -81,7 +79,3 @@ if not imTheLegitimUser:
     ctypes.windll.user32.LockWorkStation()
 else:
     print("Authenticated user")
-
-
-# https://pyauth.github.io/pyotp/
-# https://stefansundin.github.io/2fa-qr/
